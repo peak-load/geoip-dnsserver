@@ -3,7 +3,7 @@ Simple DNS server in Golang, which answers with client IP address and its GeoIP 
 
 I wrote this service inspired by presentation at RIPE 75 meeting https://ripe75.ripe.net/presentations/20-A-curious-case-of-broken-DNS-responses-RIPE-75.pdf
 
-Where service maxmind.test-ipv6.com was used, I tied to reach @jfesler with no success, so I ended up with writting this service.  
+Where service maxmind.test-ipv6.com was used, I tied to reach @jfesler asking for help / source code of that service with no success, so I ended up with writting this service.  
 
 Service reply with GeoIP data on every DNS TXT query which begins with geoip 
 
